@@ -1,0 +1,10 @@
+<h1>
+    Assignment 8 : 2
+</h1>
+<h3>
+    Parent Child both component communicating.
+</h3>
+
+<h2>{{MessageFromChild}}</h2>
+<app-child (Myevent)="MessageFromChild=$event" [MessageFromParent]="Message">
+</app-child>
